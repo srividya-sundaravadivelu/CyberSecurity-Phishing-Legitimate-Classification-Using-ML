@@ -66,11 +66,17 @@ v.	AUC
  
 <h4>Model 2: Logistic Regression</h4>
 1.	Performance metrics for Train Data
+
 i.	Accuracy 
+
 ii.	Confusion Matrix 
+
 iii.	Precision, Recall and F1 Score 
+
 iv.	ROC Curve 
+
 v.	AUC 
+
 2.	Performance metrics for Test Data
  
 Logistic Regression and SGD classifier are almost equal in terms of model efficiency, their accuracy approximately 92%.
