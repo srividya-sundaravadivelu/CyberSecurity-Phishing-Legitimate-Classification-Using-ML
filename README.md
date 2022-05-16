@@ -44,7 +44,7 @@ Above histograms shows the data distribution of all the columns in the dataset. 
 <h2>Model Building</h2>
 <h4>Model 1: SGD Classifier</h4>
                         
-1.	Performance metrics for Train Data
+<h5>1.	Performance metrics for Train Data</h5>
 Let’s use K Fold cross validation to evaluate the model. Here we divide the train data into 5 folds and reserve 1 for validation and 4 for training. We continue the steps till all the folds participate in both training and validation. By this way, we can validate the model more accurately and keep the test data untouched till the model is ready and finished training. Also, cross validation resolves the problem of over-fitting.
 
 i.	Accuracy 
@@ -61,7 +61,7 @@ iv.	ROC Curve
 v.	AUC
  				The ROC curve can be used to generate the AUC. AUC is the total area under the ROC curve.  
 
-2.	Performance metrics for Test Data
+<h5>2.	Performance metrics for Test Data</h5>
 
  
 <h4>Model 2: Logistic Regression</h4>
