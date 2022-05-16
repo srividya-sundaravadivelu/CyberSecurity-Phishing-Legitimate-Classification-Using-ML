@@ -59,17 +59,19 @@ iii.	Precision, Recall and F1 Score
 
 iv.	ROC Curve
 
- 		The ROC curve is a plot of True Positive Rate (TPR) versus the False Positive Rate (FPR). The dotted line shows a very ineffective classifier, similar to random chance. Our SGD Classifier looks effective as its closer to the top left margin.
+The ROC curve is a plot of True Positive Rate (TPR) versus the False Positive Rate (FPR). 
+The dotted line shows a very ineffective classifier, similar to random chance. 
+Our SGD Classifier looks effective as its closer to the top left margin.
 
 v.	AUC
 
- 				The ROC curve can be used to generate the AUC. AUC is the total area under the ROC curve.  
+The ROC curve can be used to generate the AUC. AUC is the total area under the ROC curve.  
 
 <h5>2.	Performance metrics for Test Data</h5>
-(refer the code - Cyber_Security_Capstone (3).ipynb)
+<i>(refer the code - Cyber_Security_Capstone (3).ipynb)</i>
  
 <h4>Model 2: Logistic Regression</h4>
-1.	Performance metrics for Train Data
+<h5>1.	Performance metrics for Train Data</h5>
 
 i.	Accuracy 
 
@@ -81,13 +83,13 @@ iv.	ROC Curve
 
 v.	AUC 
 
-2.	Performance metrics for Test Data
+<h5>2.	Performance metrics for Test Data</h5>
  
 Logistic Regression and SGD classifier are almost equal in terms of model efficiency, their accuracy approximately 92%.
 
 
 <h4>Model 3: Random Forest Classifier</h4>
-1.	Performance metrics for Train Data
+<h5>1.	Performance metrics for Train Data</h5>
 i.	Grid Search CV
  
 ii.	Accuracy
@@ -100,11 +102,11 @@ v.	ROC Curve
  
 vi.	AUC
  
-2.	Performance metrics for Test Data
+<h5>2.	Performance metrics for Test Data</h5>
  
 We can clearly see that Random Forest is the winner out of the 3 models with an accuracy of 97% , F1 score of 0.97 and AUC of 0.97.
 
-3.	Feature Importance
+<h5>3.	Feature Importance</h5>
  
 We can see the feature importance for the random forest model. The top three features that contributed toward classifying an URL as "Phishing" or "Legitimate" are SSLFinal_State, URL_of_Anchor and web_traffic.
 
