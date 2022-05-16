@@ -47,22 +47,26 @@ Above histograms shows the data distribution of all the columns in the dataset. 
 <h5>1.	Performance metrics for Train Data</h5>
 Let’s use K Fold cross validation to evaluate the model. Here we divide the train data into 5 folds and reserve 1 for validation and 4 for training. We continue the steps till all the folds participate in both training and validation. By this way, we can validate the model more accurately and keep the test data untouched till the model is ready and finished training. Also, cross validation resolves the problem of over-fitting.
 
-i.	Accuracy 
+i.	Accuracy
+
 We get around 91 % accuracy in all the 5 folds. But for a classification problem, accuracy is not a good measure. There are other measures like Confusion Matrix, Precision, Recall and F1 score.
 
 ii.	Confusion Matrix 
+
 There are 345 + 276 = 621 wrong predictions. There are 3054 + 4063 = 7117 right predictions. Accuracy is 7117/(7117 + 621) = 92%.
 
 iii.	Precision, Recall and F1 Score
 
 iv.	ROC Curve
+
  		The ROC curve is a plot of True Positive Rate (TPR) versus the False Positive Rate (FPR). The dotted line shows a very ineffective classifier, similar to random chance. Our SGD Classifier looks effective as its closer to the top left margin.
 
 v.	AUC
+
  				The ROC curve can be used to generate the AUC. AUC is the total area under the ROC curve.  
 
 <h5>2.	Performance metrics for Test Data</h5>
-
+(refer the code - Cyber_Security_Capstone (3).ipynb)
  
 <h4>Model 2: Logistic Regression</h4>
 1.	Performance metrics for Train Data
